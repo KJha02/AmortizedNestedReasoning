@@ -1,0 +1,16 @@
+name: base
+channels:
+  - defaults
+dependencies:
+  - conda
+  - python=3.8
+  - conda-env
+  - conda-build
+  - conda-verify
+  - _ipyw_jlab_nb_ext_conf
+  - anaconda
+  - anaconda-navigator
+  - navigator-updater
+  - libgcc
+  - libstdcxx-ng
+prefix: /scratch2/weka/tenenbaum/kunaljha/anaconda
