@@ -2,11 +2,11 @@
 
 If you are not using openmind, you can ignore the following paragraph:
 
-Make sure to clone this repository to both your om2 directory and your scratch directory. The server has some weird kinks when trying to work out of scratch only, so it is recommended to keep all of the files that you edit and make changes to on your om2 directory, and have saved data and models be written to the scratch directory.
+Make sure to clone this repository to both your om2 directory and your scratch directory. The server has some weird kinks when trying to work out of scratch only, so it is recommended to keep all of the files that you edit and make changes to on your om2 directory and have saved data and models be written to the scratch directory.
 
 ## Install necessary packages
 
-This code is built on Python 3.8.5. I do not have a complete list of packages, but you'll definitely need Pytorch, Pygame, Scipy, Numpy, and Matplotlib. When you try to run the code it should inform you of any missing packages, and you can follow instructions online to install them
+This code is built on Python 3.8.5. I do not have a complete list of packages, but you'll definitely need Pytorch, Pygame, Scipy, Numpy, and Matplotlib. When you try to run the code it should inform you of any missing packages, and you can follow the instructions online to install them
 
 
 ## Train an inference network
@@ -97,3 +97,5 @@ We represent an action as a one-hot vector over the action space {Accelerate, Ro
 
 ### Inference Pair Representation
 This is a 2-dim vector, indicating two drivers' IDs, *i* and *j*. *i* is inferring *j* (as a lower-level driver) in this pair.
+
+*Results may vary from the original paper due to randomness, but trends across models should be similar.
